@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7learn</title>
+</head>
+<body>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #header {
+        width: 100%;
+        height: 154px;
+        float: right;
+    }
+
+    #header #header-top {
+        width: 100%;
+        height: 94px;
+        float: right;
+        border-bottom: 1px solid #f5f9f9;
+    }
+
+    #header #header-top .header-right {
+        width: 628px;
+        height: 94px;
+        float: right;
+    }
+
+    #header #header-top .header-right img {
+        float: right;
+        position: relative;
+        top: 23px;
+        right: 130px;
+    }
+
+    #header #header-top .header-right span {
+        font-family: B Koodak;
+        float: right;
+        position: relative;
+        top: 65px;
+        right: -29px;
+        font-size: 12pt;
+        color: #afb2b2;
+    }
+
+    #header #header-top .header-left {
+        width: 731px;
+        height: 94px;
+        position: relative;
+
+    }
+
+    #header #header-top .header-left input {
+        position: absolute;
+        right: 164px;
+        top: 29px;
+        width: 300px;
+        height: 36px;
+        border-radius: 5px;
+        border: none;
+        background: #e8ecec;
+        font-family: B Koodak;
+        text-align: right;
+        font-size: 11pt;
+        padding-right: 15px;
+
+    }
+
+    #header #header-top .header-left i {
+        width: 32px;
+        height: 32px;
+        display: block;
+        float: right;
+        background: url(images/slices.png) no-repeat -455px -23px;
+        position: absolute;
+        left: 256px;
+        top: 32px;
+        cursor: pointer;
+
+    }
+
+    #header #header-top .header-left .btn {
+        width: 108px;
+        height: 36px;
+        display: block;
+        float: left;
+        background: #5d65fe;
+        position: relative;
+        top: 29px;
+        left: 116px;
+        border-radius: 5px;
+        font-family: B Koodak;
+        text-align: center;
+        color: white;
+        line-height: 36px;
+        cursor: pointer;
+
+    }
+
+
+    #header #header-top .header-left .btn:hover {
+        background: #779cec;
+    }
+
+
+    #header #header-buttom {
+        width: 100%;
+        height: 61px;
+        float: right;
+        border-bottom: 1px solid #f5f9f9;
+    }
+
+    #header #header-buttom .butoom-right {
+        width: 949px;
+        height: 61px;
+        float: right;
+    }
+
+    #header #header-buttom .butoom-right ul {
+        float: right;
+        text-align: left;
+        height: 61px;
+        margin: 0;
+        width: 84%;
+        padding: 0;
+
+    }
+
+    #header #header-buttom .butoom-right ul li {
+        float: right;
+        list-style: none;
+        padding: 23px;
+        padding-top: 18px;
+        /* padding-right: 40px; */
+        position: relative;
+        right: 102px;
+        font-size: 13pt;
+        font-family: B Koodak;
+        color: #686b6b;
+
+    }
+
+    #header #header-buttom .butoom-right ul li a {
+        cursor: pointer;
+    }
+
+    #header #header-buttom .butoom-right ul li:first-child a {
+        color: #007bec;
+        background: #dffffd;
+        padding: 3px 18px;
+        border-radius: 6px;
+    }
+
+    #header #header-buttom .butoom-right ul li:hover {
+        color: #007bec;
+    }
+
+
+    #header #header-buttom .butoom-left {
+        width: 400px;
+        height: 61px;
+    }
+
+    #header #header-buttom .butoom-left i {
+        width: 25px;
+        height: 25px;
+        display: block;
+        float: left;
+        background: url(images/slices.png) no-repeat -981px -330px;
+        position: relative;
+        left: 174px;
+        top: 18px;
+    }
+
+
+</style>
+
+<div id="header">
+
+    <div id="header-top">
+
+        <div class="header-right">
+            <img src="images/logotype-160.png">
+            <span>از یادگیری تا ورود به بازار کار</span>
+        </div>
+
+        <div class="header-left">
+            <input placeholder="... عنوان مد نظر خود را جستجو کنید">
+            <i></i>
+            <span class="btn">ورود / ثبت نام</span>
+        </div>
+    </div>
+
+
+    <div id="header-buttom">
+        <div class="butoom-right">
+            <ul>
+                <li>
+                    <a>متخصص شو</a>
+                </li>
+                <li><a>پایگاه دانش</a></li>
+                <li><a>درباره ما</a></li>
+                <li><a>تماس با ما</a></li>
+            </ul>
+        </div>
+        <div class="butoom-left">
+            <i></i>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<style>
+
+    #main {
+
+        width: 100%;
+        height: 990px;;
+        float: right;
+        margin: 0 auto;
+        background: #f6f9fb;
+    }
+
+    .main-top {
+        position: relative;
+    }
+
+    #main .main-top img {
+        float: right;
+        position: relative;
+        top: 4px;
+        right: 370px;
+    }
+
+    #main .main-top .font-main {
+        font-family: B Koodak;
+        /* float: right; */
+        text-align: center;
+        font-size: 21px;
+        margin-top: 50px;
+        color: #545454;
+    }
+
+    #main .main-top span {
+        font-family: B Koodak;
+        float: right;
+        background: #d2e4fd;
+        position: absolute;
+        top: 1px;
+        left: 251px;
+        padding: 3px 18px;
+        border-radius: 6px;
+        font-size: 13pt;
+        color: #020873;
+    }
+
+    #main .main-top .font-main2 {
+        text-align: center;
+        font-size: 13pt;
+        font-family: B Koodak;
+        line-height: 20px;
+        color: #989b9b;
+
+    }
+
+
+</style>
+
+
+<div id="main">
+    <div class="main-top">
+        <img src="images/play.png">
+        <p class="font-main">دوره های آموزشی آکادمی سون لرن (مهارت محور و مخصوص ورود به بازار کار)</p>
+        <span>در حال ثبت نام</span>
+        <p class="font-main2">مسیر کامل و صفر تا صد آموزشی برای متخصص شدن، ورود به بازار کار و کسب درآمد
+        </p>
+    </div>
+
+    <style>
+
+        #main-center img {
+            float: right;
+            padding: 38px 15px;
+            position: relative;
+            right: 105px;
+            cursor: pointer;
+        }
+
+        #main-center img:hover {
+            opacity: 45%;
+        }
+
+    </style>
+
+
+    <div id="main-center">
+        <img src="images/php1.jpg">
+        <img src="images/frontend.jpg">
+        <img src="images/android.jpg">
+        <img src="images/js.jpg">
+        <img style="padding-top:0;" src="images/wp.jpg">
+        <img style="padding-top:0;" src="images/ui-1.jpg">
+        <img style="padding-top:0;" src="images/practical-laravel.jpg">
+        <img style="padding-top:0;" src="images/start-prog.jpg">
+    </div>
+
+    <style>
+
+        #main-buttom .picture-main1 {
+            float: left;
+            float: left;
+            position: relative;
+            left: 115px;
+            top: -5px;
+
+
+        }
+
+        #main-buttom .picture-main2 {
+            float: right;
+            position: relative;
+            right: 115px;
+            top: -7px;
+        }
+
+        #main-buttom img:hover {
+            opacity: 45%;
+            cursor: pointer;
+        }
+
+    </style>
+
+    <div id="main-buttom">
+        <img class="picture-main1" src="images/data.jpg">
+        <img class="picture-main2" src="images/pythonweb.jpg">
+    </div>
+</div>
+
+
+<style>
+
+    #maqalat {
+        width: 100%;
+        height: 139px;
+        float: right;
+    }
+
+    #maqalat .title {
+        font-family: B Koodak;
+        font-size: 23pt;
+        text-align: right;
+        padding: 30px 107px;
+        float: right;
+
+    }
+
+    #maqalat .btn {
+        width: 96px;
+        height: 38px;
+        display: block;
+        float: left;
+        background: #f6f9fb;
+        position: relative;
+        top: 62px;
+        left: 115px;
+        border-radius: 5px;
+        font-family: B Koodak;
+        text-align: center;
+        color: #7c8181;
+        line-height: 36px;
+        cursor: pointer;
+        font-size: 10pt;
+    }
+
+    #maqalat .btn:hover {
+        background: #dce5e5;
+
+    }
+
+    .maqale-right {
+        width: 697px;
+        height: 553px;
+        float: right;
+
+    }
+
+    .maqale-right img {
+        float: right;
+        position: relative;
+        right: 103px;
+        top: 23px;
+        cursor: pointer;
+    }
+
+    .maqale-right span {
+
+        font-family: B Koodak;
+        float: right;
+        position: relative;
+        top: 38px;
+        font-size: 20pt;
+        right: 100px;
+    }
+
+    .maqale-left {
+        height: 553px;
+        width: 667px;
+    }
+
+    .maqale-left .moarefi-top .ketab1 {
+        float: right;
+        position: relative;
+        top: 22px;
+        right: -6px;
+        cursor: pointer;
+
+    }
+
+    .maqale-left .moarefi-top .title2 {
+        float: right;
+        width: 257px;
+        text-align: right;
+        position: relative;
+        right: -258px;
+        top: 20px;
+        font-family: "B Koodak";
+        font-size: 13pt;
+
+
+    }
+
+    .maqale-left .moarefi-top .title3 {
+        float: left;
+        font-size: 13pt;
+        font-family: "B Koodak";
+        width: 227px;
+        text-align: right;
+        position: relative;
+        top: -73px;
+        left: 139px;
+
+    }
+
+    .maqale-left .moarefi-top .ketab2 {
+        float: right;
+        position: relative;
+        top: 22px;
+        right: 29px;
+        cursor: pointer;
+    }
+
+    .maqale-left .moarefi-buttom .ketab3 {
+        float: right;
+        position: relative;
+        top: 49px;
+        right: -10px;
+        cursor: pointer;
+    }
+
+    .maqale-left .moarefi-buttom .ketab4 {
+        float: left;
+        position: relative;
+        top: -45px;
+        left: 112px;
+        cursor: pointer;
+    }
+
+    .maqale-left .moarefi-buttom .title4 {
+        font-family: "B Koodak";
+        font-size: 13pt;
+        width: 191pt;
+        text-align: right;
+        position: relative;
+        top: 45px;
+        right: -11px;
+        float: right;;
+    }
+
+    .maqale-left .moarefi-buttom .title5 {
+        font-family: "B Koodak";
+        font-size: 13pt;
+        width: 209pt;
+        text-align: right;
+        position: relative;
+        top: -48px;
+        left: 88px;
+        float: left;
+
+    }
+
+
+</style>
+
+<div id="maqalat">
+
+    <p class="title">جدیدترین مقالات
+    </p>
+    <span class="btn">آرشیو مقالات</span>
+</div>
+
+<div class="maqale-right">
+    <img src="images/maqale.png">
+    <span>بهترین کد ادیتور و مفسر پایتون کدام است؟</span>
+</div>
+
+<div class="maqale-left">
+
+    <div class="moarefi-top">
+        <img class="ketab1" src="images/ketab1.png">
+        <img class="ketab2" src="images/ketab2.png">
+        <p class="title2">معرفی کتاب Evil by Design برای طراحان رابط کاربری</p>
+        <p class="title3">معرفی کتاب آموزش طراحی سایت‌های داینامیک</p>
+    </div>
+
+    <div class="moarefi-buttom">
+        <img class="ketab3" src="images/ketab3.png">
+        <img class="ketab4" src="images/ketab4.png">
+        <p class="title4">PHP in Action: Objects, Design, Agility معرفی کتاب </p>
+        <p class="title5">معرفی کتاب Head First PHP & MySQL</p>
+    </div>
+
+</div>
+
+<style>
+    #icons {
+        width: 100%;
+        height: 474px;
+        float: right;
+        background: #f6f9fb;
+    }
+
+    .icon1 {
+        width: 100%;
+        float: right;
+        margin-bottom: 100px;
+
+    }
+
+    #icons .title-icon {
+        font-family: B Koodak;
+        text-align: right;
+        font-size: 24pt;
+        padding-right: 90px;
+        color: #7c8181;
+    }
+
+    #icons img {
+        width: 83px;
+        height: 67px;
+        float: right;
+        padding: 12px;
+        position: relative;
+        right: 100px;
+        cursor: pointer;
+    }
+
+    #icons span {
+        float: right;
+        position: relative;
+        top: 97px;
+        font-family: "B Koodak";
+        font-size: 14pt;
+        /* right: -8px; */
+        color: #7c8181;
+        /* text-align: center; */
+        cursor: pointer;
+    }
+
+    .icon2 {
+        width: 100%;
+        float: right;
+    }
+
+    .icon2 img {
+        width: 83px;
+        height: 67px;
+        float: right;
+        padding: 15px;
+        position: relative;
+        right: 100px;
+        cursor: pointer;
+    }
+
+
+</style>
+
+
+<div id="icons">
+
+    <p class="title-icon"> !مسیرت رو برای یادگیری برنامه نویسی بشناس
+    </p>
+    <div class="icon1">
+        <img src="images/1.svg">
+        <span>توسعه بازی</span>
+        <img src="images/2.svg">
+        <span style="    position: relative;right: -18px;">طراحی سایت وردپرس</span>
+        <img src="images/3.svg" style="    position: relative; right: 71px;">
+        <span> لاراول</span>
+        <img src="images/4.svg">
+        <span> برنامه نویسی</span>
+        <img src="images/5.svg">
+        <span>جاوا اسکریپت </span>
+        <img src="images/6.svg">
+        <span style="position: relative;right: 21px;
+">فرانت اند </span>
+    </div>
+
+    <div class="icon2">
+        <img src="images/7.svg">
+        <span>PHP</span>
+        <img src="images/8.svg" style="padding-right: 44px;">
+        <span>مهارت های نرم</span>
+        <img src="images/9.svg" style="   right: 71px;padding-right: 64px;">
+        <span> پایتون</span>
+        <img src="images/10.svg">
+        <span style="padding-right: 12px;"> سئو </span>
+        <img src="images/11.svg" style="    padding-right: 56px;">
+        <span style="    padding-right: 20px;">اندروید  </span>
+    </div>
+</div>
+
+
+</div>
+
+<style>
+
+    #seven1 {
+        width: 100%;
+        height: 139px;
+        float: right;
+    }
+
+    #seven1 .title {
+        font-family: B Koodak;
+        font-size: 23pt;
+        text-align: right;
+        padding: 30px 223px;
+        float: right;
+
+    }
+
+    #seven1 .btn {
+        width: 96px;
+        height: 38px;
+        display: block;
+        float: left;
+        background: #f6f9fb;
+        position: relative;
+        top: 62px;
+        left: 115px;
+        border-radius: 5px;
+        font-family: B Koodak;
+        text-align: center;
+        color: #7c8181;
+        line-height: 36px;
+        cursor: pointer;
+        font-size: 10pt;
+    }
+
+    #seven1 .btn:hover {
+        background: #dce5e5;
+
+    }
+
+    #seven2 .seven-right {
+        width: 630px;
+        height: 473px;
+        float: right;
+    }
+
+    #seven2 .seven-right img {
+        position: relative;
+        top: 28px;
+        right: -70px;
+    }
+
+    #seven2 .seven-left {
+        width: 711px;
+        height: 473px;
+        float: left;
+    }
+
+    #seven2 .seven-left .center {
+        float: right;
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+
+
+    #seven2 .seven-left span {
+        font-family: "B Koodak";
+        float: right;
+        width: 529px;
+        height: 55px;
+        text-align: right;
+        font-size: 11pt;
+        line-height: 52px;
+        padding-right: 16px;
+        box-shadow: 0px 0px 18px 1px #dee2e2;
+    }
+
+
+    #seven2 .seven-left img {
+        float: right;
+        position: relative;
+        top: 22px;
+        left: 65px;
+        height: 108px;
+        width: 109px;
+        cursor: pointer;
+    }
+
+
+</style>
+
+
+<div id="seven1">
+
+    <p class="title">سون کست
+    </p>
+    <span class="btn">آرشیو سون کست</span>
+</div>
+
+<div id="seven2">
+
+    <div class="seven-right">
+        <img src="images/php2.png">
+    </div>
+    <div class="seven-left">
+
+        <div class="top">
+            <span>آموزش‌های لازم برای داشتن یک مصاحبه شغلی موفق + پادکست</span>
+            <img src="images/php3.png">
+
+        </div>
+        <div class="center">
+            <span>سون کست: چگونه رزومه ای بنویسیم که کارفرما نتواند آن را نادیده بگیرد؟</span>
+            <img src="images/php4.png">
+
+        </div>
+        <div class="butoom">
+            <span>سون کست : توسعه دهنده فرانت اند کیست؟</span>
+            <img src="images/php5.png">
+
+        </div>
+
+    </div>
+</div>
+
+<style>
+
+    #footer {
+        width: 100%;
+        height: 318px;
+        float: right;
+    }
+
+    #footer .footer-right {
+        /*width: 746px;*/
+        width: 50%;
+
+        height: 318px;
+        float: right;
+        background: #f5f5f5;
+    }
+
+    #footer .footer-right p {
+        font-family: "B Koodak";
+        width: 400px;
+        font-size: 10.5pt;
+        float: right;
+        text-align: right;
+        position: relative;
+        right: 257px;
+        top: 61px;
+        color: #747979;
+    }
+
+    #footer .footer-right .footer-buttom {
+        float: right;
+        position: relative;
+        top: 159px;
+        right: 159px;
+    }
+
+    #footer .footer-right .footer-buttom span {
+        padding-right: 37px;
+        font-family: "B Koodak";
+        font-size: 9pt;
+        color: #747979;
+        cursor: pointer;
+    }
+
+    #footer .footer-right .footer-buttom span:hover {
+        color: #4254f2;
+    }
+
+    #footer .footer-left {
+
+        width: 50%;
+        /*width: 603px;*/
+        height: 318px;
+        float: left;
+        background: #ececec;
+    }
+
+    #footer .footer-left p {
+        font-family: "B Koodak";
+        width: 400px;
+        font-size: 10.5pt;
+        float: right;
+        text-align: right;
+        position: relative;
+        right: 33px;
+        top: 61px;
+        color: #747979;
+
+    }
+
+    #footer .footer-left .img-footer {
+        float: right;
+        position: relative;
+        top: 90px;
+
+    }
+
+    #footer .footer-left img {
+        float: right;
+        padding-right: 10px;
+
+    }
+
+</style>
+
+
+<div id="footer">
+    <div class="footer-right">
+
+
+        <p>هدف مجموعه سون لرن افزایش سطح کیفیت آموزش و ساختن راهی برای ورود دانشجویان به بازار کار تخصصی است</p>
+        <div class="footer-buttom">
+            <span style="color: #f2a026">عضویت در خبرنامه</span>
+            <span>مقالات</span>
+            <span>دوره های متخصص</span>
+            <span>درباره ما</span>
+            <span>ارتباط با ما</span>
+        </div>
+
+    </div>
+    <div class="footer-left">
+        <p>بدلیل شرایط حساس کنونی و شیوع کرونا تیم سون لرن تا اطلاع ثانوی به صورت دورکار فعالیت دارد</p>
+        <div class="img-footer">
+            <img src="images/sep.png">
+            <img src="images/nashr.png">
+            <img src="images/samandehi.png">
+            <img src="images/enamad.png">
+        </div>
+        <p style="position: relative;top: 89px;font-size: 9pt;color: black;">
+            :: سون لرن توسط سرورهای اختصاصی
+            <span style="color: #396db5;">ایران</span>
+
+            سرور پشتیبانی شده است.
+
+
+        </p>
+
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

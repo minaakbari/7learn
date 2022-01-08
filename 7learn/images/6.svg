@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg enable-background="new 0 0 256 256" version="1.1" viewBox="0 0 256 256" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<switch>
+	<foreignObject width="1" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+	</foreignObject>
+	<g>
+			<rect x="11" y="36" width="180" height="124" clip-rule="evenodd" fill="#A5DFF9" fill-rule="evenodd"/>
+			<polygon points="84.879 160 134.57 36 191 36 191 160" clip-rule="evenodd" fill="#77C9F4" fill-rule="evenodd"/>
+			<path d="m11 160h180v-124h-180v124zm42.423 71c-3.164 0-5.731-2.334-5.731-5.5 0-3.164 2.567-5.5 5.731-5.5h32.577v-36h-80.349c-3.166 0-5.651-2.202-5.651-5.368v-148.05c0-3.166 2.485-5.581 5.651-5.581h191.04c3.165 0 6.306 2.415 6.306 5.581v148.05c0 3.166-3.141 5.368-6.306 5.368h-79.694v36h31.92c3.166 0 5.731 2.336 5.731 5.5 0 3.166-2.565 5.5-5.731 5.5h-95.497z" clip-rule="evenodd" fill="#59748C" fill-rule="evenodd"/>
+			<path d="M11,160h180V36H11V160L11,160z M0,172V30.581     C0,27.415,2.485,25,5.651,25h191.043c3.165,0,6.306,2.415,6.306,5.581V172H0z" clip-rule="evenodd" fill="#69849C" fill-rule="evenodd"/>
+			<path d="m89.709 175.74c-2.11 0-3.821-1.71-3.821-3.82s1.711-3.821 3.821-3.821h22.925c2.11 0 3.821 1.711 3.821 3.821s-1.71 3.82-3.821 3.82h-22.925z" clip-rule="evenodd" fill="#E7F4F4" fill-rule="evenodd"/>
+			<rect x="86" y="184" width="31" height="10" clip-rule="evenodd" fill="#41586B" fill-rule="evenodd"/>
+			<path d="m191 99v61h-40v24h45.694c3.165 0 6.306-2.202 6.306-5.368v-79.632h-12z" fill="#516A7C"/>
+			<path d="M151,114.641V160h40V99h-24.871C157.701,99,151,106.214,151,114.641z" fill="#60B4D8"/>
+			<g clip-rule="evenodd" fill="#376A8D" fill-rule="evenodd">
+				<rect x="84" y="59" width="34" height="44"/>
+				<path d="m168 59v44h-33v-44h33z"/>
+				<rect x="34" y="59" width="34" height="44"/>
+			</g>
+			<path d="m191 160h-40v12h52v-73h-12v61z" fill="#597082"/>
+			<rect x="217.74" y="84.984" width=".001" height=".001" clip-rule="evenodd" fill="#975E89" fill-rule="evenodd"/>
+				<path d="m166.13 109h67.82c3.166 0 6.051 2.475 6.051 5.641v93.616c0 3.166-2.885 5.743-6.051 5.743h-67.82c-3.166 0-6.129-2.577-6.129-5.743v-93.616c0-3.166 2.963-5.641 6.129-5.641zm5.871 11v83h56v-83h-56z" clip-rule="evenodd" fill="#8697A7" fill-rule="evenodd"/>
+				<path d="m217.35 109h16.598c3.166 0 6.051 2.475 6.051 5.641v93.616c0 3.166-2.885 5.743-6.051 5.743h-58.987l4.624-11h48.414v-83h-15.275l4.626-11z" clip-rule="evenodd" fill="#738596" fill-rule="evenodd"/>
+				<rect x="172" y="120" width="56" height="83" clip-rule="evenodd" fill="#A5DFF9" fill-rule="evenodd"/>
+				<path d="M203,143.259c0,8.427,6.31,15.741,14.737,15.741H228v-39h-25V143.259z" fill="#6AC3E2"/>
+				<polygon points="179.59 203 212.73 120 228 120 228 203" clip-rule="evenodd" fill="#77C9F4" fill-rule="evenodd"/>
+				<path d="m233.95 109h-19.949v11h14v39h12v-44.359c0-3.166-2.885-5.641-6.051-5.641z" fill="#5F6E7A"/>
+				<path d="m202.62 145.46c1.055 7.406 7.421 13.542 15.114 13.542h10.263v-39h-15.274l-10.103 25.458z" fill="#60B4D8"/>
+				<path d="m217 164.82v13.177h-34v-18h34v4.823zm0-28.658v12.835h-34v-17h34v4.165z" clip-rule="evenodd" fill="#376A8D" fill-rule="evenodd"/>
+			<g clip-rule="evenodd" fill-rule="evenodd">
+				<path d="m217.74 79h32.531c3.152 0 5.731 2.837 5.731 5.984v58.274c0 3.136-2.595 5.741-5.731 5.741h-32.531c-3.151 0-5.737-2.593-5.737-5.741v-58.274c0-3.156 2.579-5.984 5.737-5.984z" fill="#5A6575"/>
+				<path d="m246.02 79h4.254c3.152 0 5.731 2.837 5.731 5.984v58.274c0 3.136-2.595 5.741-5.731 5.741h-32.384l28.13-69.999z" fill="#4F5864"/>
+				<polygon points="218 136 250 136 250 85 217.74 85 218 84.984 218 84.984 218 84.984 218 84.986" fill="#A5DFF9"/>
+				<path d="m230.18 144c-1.583 0-2.865-0.916-2.865-2.5 0-1.582 1.282-2.5 2.865-2.5h7.642c1.583 0 2.866 0.918 2.866 2.5 0 1.584-1.283 2.5-2.866 2.5h-7.642z" fill="#3D3F46"/>
+				<polygon points="223.28 136 243.7 85 250 85 250 136" fill="#77C9F4"/>
+				<rect x="227" y="95" width="14" height="22" fill="#376A8D"/>
+			</g>
+	</g>
+</switch>
+</svg>
